@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.nTI.qualoperadora.app.MainActivity"
+    android:background="@color/Fundo">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtPhone"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Cinza"
+        android:textSize="@dimen/tamanho_fonte" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_consultar"
+        android:id="@+id/btnConsulta"
+        android:layout_below="@+id/edtPhone"
+        android:layout_marginTop="59dp"
+        android:layout_alignLeft="@+id/edtPhone"
+        android:layout_alignStart="@+id/edtPhone"
+        android:background="@color/White"
+        android:textSize="@dimen/tamanho_fonte"
+        android:layout_alignRight="@+id/edtPhone"
+        android:layout_alignEnd="@+id/edtPhone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView"
+        android:layout_below="@+id/btnConsulta"
+        android:layout_alignLeft="@+id/btnConsulta"
+        android:layout_alignStart="@+id/btnConsulta"
+        android:layout_marginTop="139dp"
+        android:layout_alignRight="@+id/btnConsulta"
+        android:layout_alignEnd="@+id/btnConsulta"
+        android:textSize="@dimen/tamanho_fonte" />
+
+</RelativeLayout>
