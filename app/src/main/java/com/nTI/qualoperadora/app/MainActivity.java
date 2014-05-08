@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
         private ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
 
         protected void OnPreExecute(){
-            progressDialog.setMessage("Consultado Operadora. Aguarde...");
+            progressDialog.setMessage("Consultado Operadora! Aguarde...");
             progressDialog.show();
         }
 
